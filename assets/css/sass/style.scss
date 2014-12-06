@@ -15,6 +15,16 @@ body
 
 .hwrap
 {
+	.home &
+	{
+		box-shadow:none !important;
+	}
+
+	@media screen and (min-width:48em)
+	{
+		box-shadow:0 6px 0 0 $altcolor;
+	}
+
 	.logo
 	{
 		@include rem-fallback(margin-bottom,-2.0);
@@ -33,6 +43,7 @@ body
 		}
 
 		@media screen and (min-width: 48em){
+
 			a
 			{
 				max-width:none;
@@ -42,20 +53,78 @@ body
 
 	.navigation
 	{
-		@include rem-fallback(padding,1,0,1,0);
+		@extend %clear-all;
 		box-shadow:0 6px 0 0 $altcolor_dark;
 
-		.home &
+
+		.container
 		{
-			box-shadow:none;
+			@include rem-fallback(padding,1,1,1,1);
+
+			label
+			{
+				@extend %is-relative;
+				z-index: 40;
+				text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+				cursor:pointer;
+				font-size:200%;
+			}
 		}
 
-		@media screen and (min-width:34.375em)
+		.main-menu
+		{
+			display:none;
+			letter-spacing: -1px;
+			li
+			{
+
+				a
+				{
+					text-shadow: -3px -1px 1px rgba(0,0,0,0.2);
+				}
+			}
+		}
+
+		input[type=checkbox]
+		{
+			display:none;
+		}
+		input[type=checkbox]:checked + .main-menu
+		{
+			display:block;
+		}
+
+		
+
+		@media screen and (min-width:48em)
 		{
 			// right:0;
 			// padding-top:0;
-			// background-color:transparent;
-			// box-shadow:none;
+			background-color:transparent;
+			box-shadow:none;
+			padding:0;
+			margin:0;
+
+			float:right;
+			clear:none;
+
+			.container
+			{
+				padding-top:0;
+				padding-bottom:0;
+			}
+
+			.main-menu
+			{
+				display:block;
+				li
+				{
+					@include menu-row;
+					// @include menu-row($margin:0.625rem);
+					border-right:0;
+				}
+			}
+
 		}
 	}
 }

@@ -18,6 +18,10 @@ body
   // height:100%;
   line-height:1.5;
 }
+#box
+{
+  overflow-x: hidden;
+}
 
 
 
@@ -73,8 +77,13 @@ div.product .formation-description h2,
   /* MAIN TEXT COLOR
   =================================================================== */
 
-  /* ALT TEXT COLOR
+  /* BGCOLOR
   =================================================================== */
+  .navigation .main-menu a,
+  .navigation label,
+  {
+    color: $bgcolor;
+  }
 
   /* TXTCOLOR_LIGHTER
   =================================================================== */
@@ -182,6 +191,13 @@ div.product .formation-description h2,
   {
     clear:right;
   }
+  /* none
+  =================================================================== */
+  .clear-none,
+  %clear-none
+  {
+    clear:none;
+  }
 
 
 
@@ -199,14 +215,15 @@ div.product .formation-description h2,
   {
     display:none !important
   }
-  @media screen and (max-width: 34.375em){
+  // 34.375em
+  @media screen and (max-width: 48em){
     .hide-mobile,
     %hide-mobile,
     {
       display:none
     } 
   }
-  @media screen and (min-width: 34.375em){
+  @media screen and (min-width: 48em){
     .show-mobile,
     %show-mobile,
     {
@@ -327,6 +344,7 @@ div.product .formation-description h2,
   /* NONE
   =================================================================== */
   footer a,
+  .navigation .main-menu a,
   {
     text-decoration: none;
   }
@@ -334,6 +352,7 @@ div.product .formation-description h2,
   /* UNDERLINE
   =================================================================== */
   footer a:hover,
+  .navigation .main-menu a:hover,
   {
     text-decoration: underline;
   }
@@ -352,7 +371,7 @@ div.product .formation-description h2,
 =================================================================== */
   /* UPPERCASE
   =================================================================== */
-  #menu-principal li a,
+  .navigation .main-menu,
   {
     text-transform: uppercase;
   }

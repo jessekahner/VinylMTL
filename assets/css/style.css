@@ -404,14 +404,18 @@ body {
   background-color: #fff;
   line-height: 1.5; }
 
+/* line 21, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+#box {
+  overflow-x: hidden; }
+
 /* FONT-FAMILY
 =================================================================== */
-/* line 26, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 30, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 div.product .formation-description h2 {
   font-family: 'Oswald', Arial, Verdana, sans-serif;
   font-weight: 300; }
 
-/* line 31, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 35, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .features .feature h3.feature-title {
   font-family: 'Crimson Text', Arial, Verdana, sans-serif;
   font-weight: 400;
@@ -420,33 +424,33 @@ div.product .formation-description h2 {
 /* FONT-SIZES
 =================================================================== */
 /* 0.8125rem = 13px */
-/* line 41, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 45, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .fwrap {
   font-size: 13px;
   font-size: 0.8125rem; }
 
 /* 1rem = 16px */
-/* line 46, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 50, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 h4 {
   font-size: 16px;
   font-size: 1rem; }
 
 /* 1.25rem = 20px */
-/* line 51, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 55, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 h3 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1; }
 
 /*  1.875rem = 30px */
-/* line 57, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 61, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 #menu-principal > li ul a:after {
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1; }
 
 /*  2.5rem = 40px */
-/* line 63, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 67, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 h1 {
   font-size: 40px;
   font-size: 2.5rem; }
@@ -455,11 +459,15 @@ h1 {
 =================================================================== */
 /* MAIN TEXT COLOR
   =================================================================== */
-/* ALT TEXT COLOR
+/* BGCOLOR
   =================================================================== */
+/* line 83, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+.navigation .main-menu a, .navigation label {
+  color: #fff; }
+
 /* TXTCOLOR_LIGHTER
   =================================================================== */
-/* line 82, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 91, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 footer, footer a {
   color: #a5a5a5; }
 
@@ -469,19 +477,19 @@ footer, footer a {
   =================================================================== */
 /* ALTCOLOR
   =================================================================== */
-/* line 94, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 103, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .hwrap .navigation {
   background-color: #E06F6A; }
 
 /* HEADBG
   =================================================================== */
-/* line 100, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 109, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .hwrap {
   background-color: #4a4a4a; }
 
 /* FOOTBG
   =================================================================== */
-/* line 106, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 115, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .fwrap {
   background-color: #e6e6e6; }
 
@@ -491,19 +499,19 @@ footer, footer a {
 =================================================================== */
 /* LEFT
   =================================================================== */
-/* line 128, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 137, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .fleft {
   float: left; }
 
 /* RIGHT
   =================================================================== */
-/* line 135, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 144, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .fright {
   float: right; }
 
 /* NONE
   =================================================================== */
-/* line 142, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 151, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .fnone {
   float: none; }
 
@@ -511,14 +519,14 @@ footer, footer a {
 =================================================================== */
 /* CLEARFIX
   =================================================================== */
-/* line 153, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 162, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .clearfix, .group {
   zoom: 1; }
-  /* line 156, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 165, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   .clearfix:before, .group:before, .clearfix:after, .group:after {
     content: "";
     display: table; }
-  /* line 157, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 166, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   .clearfix:after, .group:after {
     clear: both; }
 
@@ -526,82 +534,88 @@ footer, footer a {
   =================================================================== */
 /* BOTH
   =================================================================== */
-/* line 167, /Users/jessekahner/VinylMTL/assets/css/sass/common */
-.clear-all {
+/* line 176, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+.clear-all, .hwrap .navigation {
   clear: both; }
 
 /* LEFT
   =================================================================== */
-/* line 174, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 183, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .clear-left {
   clear: left; }
 
 /* RIGHT
   =================================================================== */
-/* line 181, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 190, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .clear-right {
   clear: right; }
+
+/* none
+  =================================================================== */
+/* line 197, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+.clear-none {
+  clear: none; }
 
 /* DISPLAY
 =================================================================== */
 /* NONE
   =================================================================== */
-/* line 193, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 209, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .hide-content, hr {
   display: none; }
 
-/* line 198, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 214, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .display-none-imp {
   display: none !important; }
 
-@media screen and (max-width: 34.375em) {
-  /* line 204, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+@media screen and (max-width: 48em) {
+  /* line 221, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   .hide-mobile, .cwrap {
     display: none; }
  }
 
-@media screen and (min-width: 34.375em) {
-  /* line 211, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+@media screen and (min-width: 48em) {
+  /* line 228, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   .show-mobile {
     display: none; }
  }
 
 /* INLINE-BLOCK
   =================================================================== */
-/* line 219, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 236, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .inline-block {
   display: inline-block !important;
   vertical-align: middle; }
-  /* line 225, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 242, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   .lt-ie8 .inline-block {
     zoom: 1;
     *display: inline; }
 
-/* line 235, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 252, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .i-block {
   display: inline-block; }
 
 /* BLOCK
   =================================================================== */
-/* line 242, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 259, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .display-block {
   display: block; }
 
 /* TABLE
   =================================================================== */
-/* line 249, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 266, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .is-table, body {
   display: table; }
 
 /* TABLE-CELL
   =================================================================== */
-/* line 256, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 273, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .is-table-cell {
   display: table-cell; }
 
 /* TABLE ROW
   =================================================================== */
-/* line 263, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 280, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .is-table-row, .fwrap {
   display: table-row; }
 
@@ -609,19 +623,19 @@ footer, footer a {
 =================================================================== */
 /* RELATIVE
   =================================================================== */
-/* line 277, /Users/jessekahner/VinylMTL/assets/css/sass/common */
-.is-relative {
+/* line 294, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+.is-relative, .hwrap .navigation .container label {
   position: relative; }
 
 /* ABSOLUTE
   =================================================================== */
-/* line 284, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 301, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .is-absolute {
   position: absolute; }
 
 /* FIXED
   =================================================================== */
-/* line 291, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 308, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .is-fixed {
   position: fixed; }
 
@@ -629,19 +643,19 @@ footer, footer a {
 =================================================================== */
 /* CENTER
   =================================================================== */
-/* line 303, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 320, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .align-center {
   text-align: center; }
 
 /* RIGHT
   =================================================================== */
-/* line 311, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 328, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .align-right {
   text-align: right; }
 
 /* LEFT
   =================================================================== */
-/* line 318, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 335, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .align-left {
   text-align: left; }
 
@@ -649,14 +663,14 @@ footer, footer a {
 =================================================================== */
 /* NONE
   =================================================================== */
-/* line 329, /Users/jessekahner/VinylMTL/assets/css/sass/common */
-footer a {
+/* line 347, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+footer a, .navigation .main-menu a {
   text-decoration: none; }
 
 /* UNDERLINE
   =================================================================== */
-/* line 336, /Users/jessekahner/VinylMTL/assets/css/sass/common */
-footer a:hover {
+/* line 355, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+footer a:hover, .navigation .main-menu a:hover {
   text-decoration: underline; }
 
 /* FONT-WEIGHT
@@ -667,13 +681,13 @@ footer a:hover {
 =================================================================== */
 /* UPPERCASE
   =================================================================== */
-/* line 355, /Users/jessekahner/VinylMTL/assets/css/sass/common */
-#menu-principal li a {
+/* line 374, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+.navigation .main-menu {
   text-transform: uppercase; }
 
 /* NONE
   =================================================================== */
-/* line 362, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 381, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 #menu-principal > li .mega-menu__extra-content .mega-menu__extra-content-title {
   text-transform: none; }
 
@@ -681,7 +695,7 @@ footer a:hover {
 =================================================================== */
 /* POINTER
   =================================================================== */
-/* line 371, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 390, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .promo__item .bouton {
   cursor: pointer; }
 
@@ -689,7 +703,7 @@ footer a:hover {
 =================================================================== */
 /* EXTENDS!
   =================================================================== */
-/* line 382, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 401, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
@@ -697,7 +711,7 @@ footer a:hover {
 
 /* CHROME FRAME
   =================================================================== */
-/* line 392, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 411, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .chromeframe {
   background-color: #ffff1a;
   margin: 0;
@@ -705,38 +719,38 @@ footer a:hover {
 
 /* HEIGHT 100%
   =================================================================== */
-/* line 402, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 421, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 html, body, .height-full {
   height: 100%; }
 
 /* MIN-HEIGHT 100%
   =================================================================== */
-/* line 409, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 428, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .minheight-full {
   min-height: 100%; }
 
 /* RESET PADDINGS + MARGINS
   =================================================================== */
-/* line 416, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 435, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .reset-pm, div.entry-content h1, div.entry-content h2, div.entry-content h3, div.entry-content h4, div.entry-content ul, div.entry-content ol, div.entry-content blockquote {
   margin: 0;
   padding: 0; }
 
 /* RESET UL + OL
   =================================================================== */
-/* line 428, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 447, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .reset-ul-ol, .reset-ul-ol li, .fwrap ul, .fwrap li {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 440, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 459, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .reset-ul-ol li:before {
   content: none !important; }
 
 /* RESET BUTTON
   =================================================================== */
-/* line 448, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 467, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .reset-button {
   padding: 0;
   margin: 0;
@@ -747,7 +761,7 @@ html, body, .height-full {
 
 /* MAX-WIDTH
   =================================================================== */
-/* line 462, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 481, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .max-width {
   max-width: 960px;
   width: 100%;
@@ -755,21 +769,21 @@ html, body, .height-full {
 
 /* FULL-WIDTH
   =================================================================== */
-/* line 473, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 492, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .full-width, body {
   width: 100%; }
 
-/* line 479, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 498, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 .wide-panel {
   margin: 0 -100%;
   padding-left: 100%;
   padding-right: 100%; }
 
-/* line 490, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 509, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 iframe[src="about:blank"] {
   display: none; }
 
-/* line 494, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 513, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 div.entry-content {
   line-height: 24px;
   line-height: 1.5rem;
@@ -785,35 +799,35 @@ div.entry-content {
   =================================================================== */
   /* CHILDREN
   =================================================================== */ }
-  /* line 506, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 525, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content h1 b, div.entry-content h1 strong, div.entry-content h2 b, div.entry-content h2 strong, div.entry-content h3 b, div.entry-content h3 strong, div.entry-content h4 b, div.entry-content h4 strong {
     font-weight: 700; }
-  /* line 512, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 531, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content h2 {
     margin: 24px 0px;
     margin: 1.5rem 0rem; }
-  /* line 517, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 536, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content h3 {
     margin: 1em 0 -0.5em 0; }
-  /* line 522, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 541, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content h4 {
     line-height: 1.25;
     margin-bottom: -10px;
     margin-bottom: -0.625rem; }
-  /* line 531, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 550, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content ul, div.entry-content ol {
     list-style: none;
     margin: -0.5em 0 -0.5em 1.75em; }
-    /* line 538, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+    /* line 557, /Users/jessekahner/VinylMTL/assets/css/sass/common */
     div.entry-content ul li, div.entry-content ol li {
       position: relative;
       list-style: none;
       padding-left: 1.5em; }
-  /* line 551, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 570, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content h1 + ul, div.entry-content h2 + ul, div.entry-content h3 + ul, div.entry-content h4 + ul, div.entry-content h1 + ol, div.entry-content h2 + ol, div.entry-content h3 + ol, div.entry-content h4 + ol {
     margin-top: 8px;
     margin-top: 0.5rem; }
-  /* line 559, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 578, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content ul li:before {
     border-radius: 100%;
     content: "";
@@ -823,30 +837,30 @@ div.entry-content {
     position: absolute;
     height: 0.325em;
     width: 0.325em; }
-  /* line 574, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 593, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content ol li {
     counter-increment: index; }
-    /* line 578, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+    /* line 597, /Users/jessekahner/VinylMTL/assets/css/sass/common */
     div.entry-content ol li:before {
       position: absolute;
       left: -0.25em;
       top: 0;
       content: counter(index) "."; }
-  /* line 589, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 608, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content blockquote {
     padding: 0 1.875em;
     margin: 1em 0;
     border-top: 1px solid #787878;
     border-bottom: 1px solid #787878; }
-  /* line 604, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 623, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content img.alignleft {
     float: left;
     margin-right: 1.25em; }
-  /* line 608, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 627, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content img.alignright {
     float: right;
     margin-left: 1.25em; }
-  /* line 616, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 635, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content table {
     width: 100%;
     table-layout: fixed;
@@ -854,76 +868,133 @@ div.entry-content {
     border-radius: 16px;
     border-radius: 1rem;
     overflow: hidden; }
-    /* line 624, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+    /* line 643, /Users/jessekahner/VinylMTL/assets/css/sass/common */
     div.entry-content table th, div.entry-content table td {
       padding: 0.5em 1em;
       border: 1px solid #fff; }
-    /* line 630, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+    /* line 649, /Users/jessekahner/VinylMTL/assets/css/sass/common */
     div.entry-content table thead th {
       padding: 0.75em 1em; }
-    /* line 639, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+    /* line 658, /Users/jessekahner/VinylMTL/assets/css/sass/common */
     div.entry-content table tbody tr td {
       background-color: #fff; }
-  /* line 667, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 686, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content > *:first-child {
     margin-top: 0; }
-  /* line 676, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+  /* line 695, /Users/jessekahner/VinylMTL/assets/css/sass/common */
   div.entry-content > *:last-child, div.entry-content > *:last-child > *:last-child, div.entry-content > *:last-child > *:last-child > *:last-child, div.entry-content > *:last-child > *:last-child > *:last-child > *:last-child, div.entry-content > *:last-child > *:last-child > *:last-child > *:last-child > *:last-child {
     margin-bottom: 0; }
 
-/* line 683, /Users/jessekahner/VinylMTL/assets/css/sass/common */
+/* line 702, /Users/jessekahner/VinylMTL/assets/css/sass/common */
 a:focus {
   outline: 0; }
 
-/* line 18, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+/* line 19, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+.home .hwrap {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+@media screen and (min-width: 48em) {
+  .hwrap {
+    -webkit-box-shadow: 0 6px 0 0 #E06F6A;
+    box-shadow: 0 6px 0 0 #E06F6A; } }
+/* line 28, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
 .hwrap .logo {
   margin-bottom: -32px;
   margin-bottom: -2rem;
   margin-top: -34px;
   left: -50px; }
-  /* line 24, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  /* line 34, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
   .hwrap .logo a {
     max-width: 87.5%; }
-  /* line 29, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  /* line 39, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
   .hwrap .logo img {
     width: 100%;
     height: auto; }
   @media screen and (min-width: 48em) {
-    /* line 36, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+    /* line 47, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
     .hwrap .logo a {
       max-width: none; }
  }
-/* line 43, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+/* line 54, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
 .hwrap .navigation {
-  padding: 16px 0px 16px 0px;
-  padding: 1rem 0rem 1rem 0rem;
   -webkit-box-shadow: 0 6px 0 0 #C45954;
   box-shadow: 0 6px 0 0 #C45954; }
-  /* line 49, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
-  .home .hwrap .navigation {
-    -webkit-box-shadow: none;
-    box-shadow: none; }
+  /* line 60, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  .hwrap .navigation .container {
+    padding: 16px 16px 16px 16px;
+    padding: 1rem 1rem 1rem 1rem; }
+    /* line 64, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+    .hwrap .navigation .container label {
+      z-index: 40;
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      font-size: 200%; }
+  /* line 74, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  .hwrap .navigation .main-menu {
+    display: none;
+    letter-spacing: -1px; }
+    /* line 81, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+    .hwrap .navigation .main-menu li a {
+      text-shadow: -3px -1px 1px rgba(0, 0, 0, 0.2); }
+  /* line 88, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  .hwrap .navigation input[type=checkbox] {
+    display: none; }
+  /* line 92, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  .hwrap .navigation input[type=checkbox]:checked + .main-menu {
+    display: block; }
+  @media screen and (min-width: 48em) {
+    .hwrap .navigation {
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      margin: 0;
+      float: right;
+      clear: none; }
+      /* line 111, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+      .hwrap .navigation .container {
+        padding-top: 0;
+        padding-bottom: 0; }
+      /* line 117, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+      .hwrap .navigation .main-menu {
+        display: block; }
+        /* line 120, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+        .hwrap .navigation .main-menu li {
+          line-height: 16px;
+          line-height: 1rem;
+          float: left;
+          padding-right: 12px;
+          padding-right: 0.75rem;
+          margin-right: 12px;
+          margin-right: 0.75rem;
+          border-right: 1px solid #787878;
+          border-right: 0; }
+          /* line 91, /Users/jessekahner/VinylMTL/assets/css/sass/mixins */
+          .hwrap .navigation .main-menu li.last, .hwrap .navigation .main-menu li:last-child {
+            padding-right: 0;
+            margin-right: 0;
+            border-right: 0; } }
 
-/* line 64, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+/* line 133, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
 .cwrap {
   padding-top: 32px;
   padding-top: 2rem; }
 
-/* line 73, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+/* line 142, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
 .fwrap {
   height: 1px; }
-  /* line 78, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  /* line 147, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
   .fwrap footer {
     padding: 20px 16px;
     padding: 1.25rem 1rem; }
-  /* line 88, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+  /* line 157, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
   .fwrap p {
     margin-bottom: 0; }
   @media screen and (min-width: 48em) {
-    /* line 94, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+    /* line 163, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
     .fwrap ul {
       float: right; }
-      /* line 96, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+      /* line 165, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
       .fwrap ul li {
         line-height: 16px;
         line-height: 1rem;
@@ -939,7 +1010,7 @@ a:focus {
           margin-right: 0;
           border-right: 0; }
 
-    /* line 103, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
+    /* line 172, /Users/jessekahner/VinylMTL/assets/css/sass/style.scss */
     .fwrap p {
       float: left;
       margin-top: 0; }
