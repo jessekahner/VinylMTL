@@ -1,7 +1,66 @@
 @import 'common';
 
+
+html,body
+{
+  @extend %height-full;
+}
+
 body
 {
-	background:red;
-	
+	@extend %is-table;
+  @extend %full-width;
+}
+
+
+.hwrap
+{
+
+}
+
+
+.cwrap
+{
+
+}
+
+.fwrap
+{
+	@extend %is-table-row;
+  height:1px;
+
+	footer
+	{
+		@include rem-fallback(padding,1.5,1);
+
+		
+	}
+
+	ul,li
+	{
+		@extend %reset-ul-ol;
+	}
+
+	p
+	{
+		margin-bottom:0;
+	}
+
+	@media screen and (min-width: 48em){
+		ul
+		{
+			li
+			{
+				@include menu-row();
+			}
+			float:right;
+
+		}
+		p
+		{
+			// @extend .fleft;
+			float:left;
+			margin-top:0;
+		}
+	}
 }

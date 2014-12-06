@@ -29,14 +29,14 @@
   "outputStyle": "nested",
   "sourceMap": false,
   "cache": false,
-  "lineNumbers": false,
+  "lineNumbers": true,
   "debugInfo": false,
-  "globbing": false,
-  "useLibSass": false
+  "globbing": true,
+  "useLibSass": true
 },
 "autoPrefixer": {
   "active": true,
-  "sourceMap": false,
+  "sourceMap": true,
   "browsers": [
     "last 4 version", 
     "> 1%", 
