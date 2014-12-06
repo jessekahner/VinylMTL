@@ -3,7 +3,7 @@
 
 
 @import "normalize";
-// @import "icons";
+@import "icons";
 
 
 /* MAIN BODY
@@ -76,7 +76,7 @@ div.product .formation-description h2,
   /* ALT TEXT COLOR
   =================================================================== */
 
-  /* BGCOLOR
+  /* TXTCOLOR_LIGHTER
   =================================================================== */
   footer,
   footer a,
@@ -89,6 +89,18 @@ div.product .formation-description h2,
 =================================================================== */
   /* MAIN BACKGROUND COLOR
   =================================================================== */
+  /* ALTCOLOR
+  =================================================================== */
+  .hwrap .navigation,
+  {
+    background-color:$altcolor;
+  }
+  /* HEADBG
+  =================================================================== */
+  .hwrap,
+  {
+    background-color: $headbg;
+  }
   /* FOOTBG
   =================================================================== */
   .fwrap,
@@ -187,6 +199,20 @@ div.product .formation-description h2,
   {
     display:none !important
   }
+  @media screen and (max-width: 34.375em){
+    .hide-mobile,
+    %hide-mobile,
+    {
+      display:none
+    } 
+  }
+  @media screen and (min-width: 34.375em){
+    .show-mobile,
+    %show-mobile,
+    {
+      display:none
+    } 
+  }
 
   /* INLINE-BLOCK
   =================================================================== */
@@ -238,6 +264,8 @@ div.product .formation-description h2,
   {
     display:table-row;
   }
+
+
 
 
 

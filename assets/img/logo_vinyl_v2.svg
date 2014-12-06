@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="264px" height="145px" viewBox="0 0 264 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_vinyl</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="logo_vinyl" sketch:type="MSLayerGroup" transform="translate(-17.000000, -17.000000)">
+            <g id="Home-Copy">
+                <g id="01_Home">
+                    <g id="Group-+-VINYLMTL">
+                        <g id="Group" transform="translate(89.000000, 89.000000) rotate(-16.000000) translate(-89.000000, -89.000000) translate(17.000000, 17.000000)" sketch:type="MSShapeGroup">
+                            <circle id="Oval-1" fill="#4A4A4A" cx="72" cy="72" r="72"></circle>
+                            <path d="M104.206423,136.412845 C94.5155536,141.267724 83.5768554,144 72,144 C60.4231446,144 49.4844464,141.267724 39.7935774,136.412845 L72,72 L104.206423,136.412845 L104.206423,136.412845 Z" id="Oval-4" fill="#5A5A5A"></path>
+                            <circle id="Oval-2" fill="#E06F6A" cx="72" cy="72" r="24"></circle>
+                            <circle id="Oval-3" fill="#4A4A4A" cx="71.6666667" cy="71.6666667" r="2.66666667"></circle>
+                        </g>
+                        <g id="VINYLMTL" transform="translate(147.000000, 66.000000)" font-size="39.9999189" font-family="Bebas Neue" sketch:type="MSTextLayer" font-weight="normal">
+                            <text id="VINYL" fill="#FFFFFF">
+                                <tspan x="0.24" y="35.599971" fill="#000000">VINYL</tspan>
+                            </text>
+                            <text id="MTL" fill="#E06F6A">
+                                <tspan x="84.432" y="35.599971" fill="#000000">MTL</tspan>
+                            </text>
+
+
+                             <!-- <text id="VINYLMTL" sketch:type="MSTextLayer" font-family="Bebas Neue" font-size="48" font-weight="normal" sketch:alignment="middle">
+                    <tspan x="0.24" y="35.599971" fill="#FFFFFF">VINYL</tspan>
+                    <tspan x="84.432" y="35.599971" fill="#E06F6A">MTL</tspan>
+                </text> -->
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
