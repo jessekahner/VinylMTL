@@ -1,0 +1,46 @@
+{
+  "convertHtml": {
+    "relativePaths": false
+  },
+  "customRubyPath": null,
+  "debug": false,
+  "domain": null,
+  "followLeader": false,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": [
+    "css/sass",
+    "js"
+  ],
+  "preprocessorScriptOutput": "js",
+  "preprocessorStyleOutput": "css",
+  "projectDescription": "My project description",
+  "projectName": "VinylMtl",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": "vinylmtl.local",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "simple",
+  "useCompass": false,
+  "sass": {
+  "outputStyle": "nested",
+  "sourceMap": false,
+  "cache": false,
+  "lineNumbers": false,
+  "debugInfo": false,
+  "globbing": false,
+  "useLibSass": false
+},
+"autoPrefixer": {
+  "active": true,
+  "sourceMap": false,
+  "browsers": [
+    "last 4 version", 
+    "> 1%", 
+    "ie 8"
+  ]
+}
+}
